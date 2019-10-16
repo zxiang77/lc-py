@@ -13,8 +13,8 @@ class uf:
 
     def find(self, k):
         if self.ids[k] != k:
-            return self.find(self.id[i])
+            return self.find(self.id[k])
         return self.ids[k]
 
     def uid(self, i, j):
-        return i * m + j
+        return i * self.n + j

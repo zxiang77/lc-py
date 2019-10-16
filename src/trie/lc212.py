@@ -19,6 +19,7 @@ class Node:
             cur = cur.children[idx]
         cur.end = True
 
+# can be simplified with dictionary path tree
 class Solution:
     def findWords(self, board: List[List[str]], words: List[str]) -> List[str]:
         # dfs + trie
