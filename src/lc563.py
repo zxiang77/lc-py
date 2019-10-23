@@ -19,4 +19,3 @@ def gg(pos, dir):
     def hh():
         # nonlocal b
         b.keys()
-    

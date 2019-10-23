@@ -1,6 +1,5 @@
 from typing import List
 
-
 class Solution:
     def removeInvalidParentheses(self, s: str) -> List[str]:
         self.res = set()
@@ -50,16 +49,16 @@ class Solution:
                     or ((total + l_rem) == r_rem):
                 self.dfs(i + 1, st + self.s[i], total, l_rem, r_rem)
 
-
-ff = None
-print(str(ff))
-fff = "a,3,4,2"
-print(fff.split(","))
-
-gg = []
-f22 = ",".join(gg)
-print(f22)
-print(f22.split(","))
-
-st = []
-st
+#
+# ff = None
+# print(str(ff))
+# fff = "a,3,4,2"
+# print(fff.split(","))
+#
+# gg = []
+# f22 = ",".join(gg)
+# print(f22)
+# print(f22.split(","))
+#
+# st = []
+# st
