@@ -13,9 +13,3 @@ class Solution:
 
         _, t = helper(root)
         return su[0]
-
-def gg(pos, dir):
-    b = {}
-    def hh():
-        # nonlocal b
-        b.keys()

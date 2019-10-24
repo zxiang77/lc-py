@@ -64,6 +64,3 @@ class Solution:
                         vst.add(nmstr)
                         q.append((nm, ks))
         return -1
-
-ls = [1, 1, 1,]
-print(ls.get(5, 0))

@@ -23,6 +23,14 @@ class Solution:
             if l[i] == 9:
                 break
         return sum(ctr)
-            
-
         # add all #
+
+# consider it to be a number with base of 9 instead of 10
+# class Solution:
+#     def newInteger(self, n: int) -> int:
+#         k, res, i = n, 0, 1
+#         while k > 0:
+#             res = res + (k % 9) * i
+#             i *= 10
+#             k = k // 9
+#         return res
